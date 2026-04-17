@@ -44,7 +44,7 @@ module.exports = withMDX({
       },
       {
         source: "/slackin/:nested*",
-        destination: "https://github.com/rauchg/slackin",
+        destination: "https://github.com/bamanyisa/blogging",
         permanent: true,
       },
     ];

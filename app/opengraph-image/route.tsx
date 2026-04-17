@@ -24,13 +24,13 @@ export async function GET() {
         tw="flex p-10 h-full w-full bg-white flex-col"
         style={font("Geist")}
       >
-        <header tw="flex text-[36px] w-full">
-          <div style={font("Geist Medium")}>
-            Guillermo Rauch
-          </div>
-          <div tw="grow" />
-          <div tw="text-[28px]">rauchg.com</div>
-        </header>
+<header tw="flex text-[36px] w-full">
+           <div style={font("Geist Medium")}>
+             Vien Bamanyisa
+           </div>
+           <div tw="grow" />
+           <div tw="text-[28px]">bamanyisa.com</div>
+         </header>
 
         <main tw="flex mt-10 flex-col w-full">
           {posts.map((post, i) => {

@@ -11,13 +11,13 @@ export default function LinkHead({ params }: { params: { id: string } }) {
   return (
     <>
       <meta property="og:title" content={link.title} />
-      <meta property="og:site_name" content="Guillermo Rauch" />
+      <meta property="og:site_name" content="Vien Bamanyisa" />
       <meta property="og:description" content={link.description} />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@rauchg" />
+      <meta name="twitter:site" content="@vienbamanyisa" />
       <meta
         property="og:image"
-        content={`https://rauchg.com/og/${link.image}`}
+        content={`https://bamanyisa.com/og/${link.image}`}
       />
     </>
   );
